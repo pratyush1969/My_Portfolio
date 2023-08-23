@@ -11,6 +11,9 @@
     align-items: center;
     justify-content: flex-end;
     flex-direction: row;
+    position: sticky;
+    top:0;
+    left: 0;
 }
 .navbar nav{
     display: flex;
@@ -27,13 +30,6 @@
 .navbar nav ul li a:hover{
     color:red;
 }
-
-.navbar{
-    position: sticky;
-    top:0;
-    left: 0;
-}
-
 
 
 
