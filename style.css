@@ -191,7 +191,8 @@ textarea{
     border:1px solid grey
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 700px), 
+       screen and (max-height: 1600px) {
     .navbar{
         position: sticky;
         top:0;
